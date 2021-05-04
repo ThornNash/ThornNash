@@ -1,0 +1,4 @@
+getgenv().fruits = true -- True for ON / False for OFF
+getgenv().FruitName = {"Dragon Fruit", "Control Fruit"} -- Table of Fruit Names EX: {"Dragon Fruit", "Control Fruit", "Light Fruit"}
+getgenv().webhookurl = "https://discord.com/api/webhooks/839229834471145532/WZ1mxfZp28JxFEuZgxtBKP6D7DXCLt7UATAUqN379lkUq29MeeWr68HLlMYQYrVqTyXB" -- Insert webhook url
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/FranieLUA/franiescripts/main/bloxfruitdfhopper.lua'),true))()
